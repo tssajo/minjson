@@ -1,0 +1,46 @@
+{
+  "name": "minjson",
+  "description": "minjson is a very simple program with a CLI (Command Line Interface) for the purpose of minifying and beautifying JSON files on the Command Line.",
+  "version": "0.0.1",
+  "keywords": [
+    "json",
+    "minifier",
+    "beautifier",
+    "minify",
+    "beautify"
+  ],
+  "homepage": "https://github.com/tssajo/minjson",
+  "author": "Zoltan Frombach",
+  "maintainers": [
+    "Zoltan Frombach <tssajo@gmail.com>"
+  ],
+  "contributors": [
+    "Zoltan Frombach <tssajo@gmail.com>"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/tssajo/minjson/blob/master/LICENSE.md"
+  },
+  "bin": "./cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tssajo/minjson"
+  },
+  "bugs": {
+    "url": "https://github.com/tssajo/minjson/issues"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "cli": "0.6.x",
+    "concat-stream": "1.4.x",
+    "uglify-js": "2.4.x"
+  },
+  "files": [
+    "cli.js",
+    "jsonminifier.js",
+    "LICENSE.md"
+  ],
+  "main": "./jsonminifier.js"
+}
