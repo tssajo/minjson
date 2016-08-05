@@ -7,7 +7,7 @@ function jsonminifier(input, options) {
       ast = UglifyJS.parse(tmpVar + ' = ' + input);
   if (options.compress) {
     ast.figure_out_scope();
-    var compressor = UglifyJS.Compressor();
+    var compressor = UglifyJS.Compressor({booleans: false});
     ast = ast.transform(compressor);
   }
   var re = new RegExp('^' + tmpVar + '\\s*=\\s*([^]*?);?$'),
