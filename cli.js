@@ -45,7 +45,7 @@ var beautifyOptions = {
   }
 };
 var minifyOptions = {
-  compress: true,
+  compress: false,
   output: {
     beautify: false,
     quote_keys: true
