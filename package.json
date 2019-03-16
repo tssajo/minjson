@@ -1,7 +1,7 @@
 {
   "name": "minjson",
   "description": "minjson is a very simple program with a CLI (Command Line Interface) for the purpose of minifying and beautifying JSON files on the Command Line.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "json",
     "minifier",
@@ -33,9 +33,9 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "cli": "0.11.x",
-    "concat-stream": "1.5.x",
-    "uglify-js": "2.7.x"
+    "cli": "^1.0.1",
+    "concat-stream": "^2.0.0",
+    "uglify-js": "3.x.x"
   },
   "files": [
     "cli.js",
